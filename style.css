@@ -1,0 +1,87 @@
+.red{
+    color: red;
+}
+.green{
+    color: rgb(0, 0, 0);
+}
+.post{
+    background-color: rgb(196, 162, 228);
+    padding: 10px;
+    border-radius: 20px;
+    width: 430px;
+    text-align: center;
+}
+.post2{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 20px;                                
+    width: 430px;
+    text-align: center;
+}
+.post3{
+    background-color: rgb(54, 131, 80);
+    padding: 10px;
+    border-radius: 20px;
+    width: 430px;
+    text-align: center;                                 
+}
+.post4{
+    background-color: rgb(174, 184, 44);
+    padding: 10px;
+    border-radius: 20px;
+    width: 430px;           
+    text-align: center;
+    
+}
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.button_add{
+    background-color: wheat;
+    color: brown;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+header, footer{
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: wheat;
+}
+nav a{
+    color: wheat;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: wheat;
+    color: brown;
+    border-radius: 15px;
+}
+.logo{
+    color: wheat;
+}
+.posts{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.button_add:hover{
+    filter: brightness(1.2);
+}
+.button_add:active{
+    filter: brightness(0.7);
+}
+.up{
+    color: white;
+}
